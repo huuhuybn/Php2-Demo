@@ -49,5 +49,5 @@ $closure = function (){
 // tham số 1 : là biến sẽ bind,
 // tham số 2 : phạm vi hàm bindTo đọc : scope
 $boundClosure = $closure->bindTo($sv1,$sv1);
-
 echo $boundClosure();
+
