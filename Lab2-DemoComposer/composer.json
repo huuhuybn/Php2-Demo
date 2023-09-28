@@ -1,8 +1,0 @@
-{
-  "name": "ABC",
-  "autoload": {
-    "psr-4": {
-      "demoComposer\\": "./"
-    }
-  }
-}

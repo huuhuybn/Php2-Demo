@@ -1,5 +1,5 @@
 <?php
-
+include "Product.php";
 include "Compare.php";
 // lớp shoes kế thừa các thuộc tính của
 // lớp product
@@ -56,6 +56,6 @@ class Shoes extends Product
         echo Product::$promotion;
         echo Product::PI;
     }
-
-
 }
+
+echo "Hell";

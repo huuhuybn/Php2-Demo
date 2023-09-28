@@ -15,7 +15,7 @@ abstract class Product
     // ở phía trước
     // hoặc $name = "dddd";
     const PI = 3.14;
-    var $name;
+    public var $name;
     public $ten;
     var $price;
     protected $color;
